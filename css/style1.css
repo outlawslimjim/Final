@@ -1,0 +1,131 @@
+* {
+    max-width: 700px;
+    margin: auto;
+  }
+
+  .stuff {
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 0px;
+    
+    width: 100%;
+    height: 800px;
+    line-height: 27px;
+  }
+  
+  p,
+  li {
+    font-family: 'Cormorant Garamond';
+  }
+  
+  .head {
+    font-size: 22px;
+  }
+  
+  #name {
+    font-family: Sacramento;
+    float: right;
+    margin-top: 10px;
+    margin-right: 4%;
+
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  @media only screen and (max-width: 430px) {
+    .left,
+    .right {
+      display: none;
+    }
+    .stuff {
+      width: 100%;
+      margin-left: 10px;
+    }
+  }
+
+
+  
+
+
+
+
+
+  #top{
+    text-decoration: underline;
+}
+.emphasizedText{
+    font-style: italic;
+    color: gray
+}
+body{
+    background-color: whitesmoke;
+    text-align: left;
+    text-align: center;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 20px;
+    
+}
+p{
+    font-weight: bold;
+    font-size: 200px;
+}
+ul{
+    list-style-position: inside;
+}
+ol{
+    list-style-position: inside;
+}
+.common{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    height: 100px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 100px;
+}
+.mainbody{
+    background-color: whitesmoke;
+    right: 5px;
+    left: 5px;
+    bottom: 10px;
+}
+.footer{
+    height: 15px;
+    font-size: 10px;
+    padding-top: 10px;
+    background-color: black;
+    color: white;
+    bottom: 0px;
+    right: 5px;
+    left: 5px;
+    position: fixed;
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+nav{
+    background-color: lightgray;
+    padding: 10px;
+    overflow: hidden;
+}
+nav a:hover{
+    background-color: #ccc;
+}
+nav a{
+    float: left;
+    color: #333;
+    padding: 10px 13px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
